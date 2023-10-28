@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform:uppercase ;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,117,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+
+.wrapper{
+    background-color: rgba(7, 201, 244, 0.92);
+    width: 1200px;
+    height: 800px;
+    border: 2px solid aqua;
+    position: relative;
+    margin: 120px auto;
+    border-radius: 70%;
+}
+
+
+input{
+    position: absolute;
+    width: 200px;
+    border-radius: 50px;
+    text-align: center;
+    font-weight:900; 
+    background-color: aqua;
+    color: black;
+    padding: 20px;
+}
+
+input ::placeholder{
+    text-align: center;
+    color: aqua;
+    font-size: 18px;
+}
+
+#left_1{
+    padding: 48px;
+    top:5px ;
+    right: 43%;
+}
+
+#left_2{
+    width: 150px;
+    top: 55px;
+    right:65%;
+}
+
+#left_3{
+    width:150px;
+    top: 120px;
+    right:75%;
+}
+
+#left_4{
+    width:110px;
+    top:190px;
+    right:85%;
+}
+
+#left_5{
+    width:110px;
+    top:270px;
+    right:89%;
+}
+
+#left_6{
+    width:110px ;
+    top:355px ;
+    right:90% ;
+}
+
+#left_7{
+    width:110px;
+    top:440px ;
+    right:89% ;
+}
+
+#left_8{
+    width:110px;
+    top:520px ;
+    right:85% ;
+}
+
+#left_9{
+    width:110px;
+    top:600px ;
+    right:79% ;
+}
+
+#left_10{
+    width:110px;
+    top:664px ;
+    right:70% ;
+}
+
+#left_11{
+    width:110px;
+    top:699px ;
+    right:59% ;
+}
+
+
+body{
+    background-image:url(https://w0.peakpx.com/wallpaper/733/131/HD-wallpaper-water-drops-blue-drops-water.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+
+
+
+button{
+    position: absolute;
+    border-radius: 50%;
+    width: 400px;
+    height: 245px;
+    background-color: aqua;
+    right: 200px;
+    top: 250px;
+    font-size: 30px;
+    font-weight: 1000;
+    color: rgba(7, 181, 244, 0.92);
+}
+
+
+h1{
+    background-color: aqua;
+}
+
+#answer{    
+    font-size: 35px;
+    position: absolute;
+    top: 360px;
+    right: 65%;
+}
+#quality{
+    font-size: 35px;
+    position: absolute;
+    top: 405px;
+    right: 55%;
+}
